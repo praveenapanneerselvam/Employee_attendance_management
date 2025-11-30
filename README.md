@@ -33,20 +33,21 @@ Use these credentials to test the deployed application:
 | **Manager** | `manager@test.com` | `123`    |
 | **Employee**| `emp@test.com`    | `123`    |
 
-<img width="1905" height="901" alt="emp_login" src="emp_login" />
-<img width="1905" height="901" alt="emp_login" src="1st" />
+<img width="1918" height="911" alt="emp_login" src="https://github.com/user-attachments/assets/91cd2c2c-af7e-4df0-900e-32052bf92c07" />
 
-<img width="1905" height="901" alt="emp_login" src="2nd" />
 
-<img width="1905" height="901" alt="emp_login" src="3rd" />
+<img width="1909" height="906" alt="1st" src="https://github.com/user-attachments/assets/ddcc4506-a707-488d-971c-de1426076b4e" />
+<img width="1905" height="918" alt="2nd" src="https://github.com/user-attachments/assets/fd61269b-097f-486d-bc94-9f8a2dcd24f8" />
+<img width="1911" height="896" alt="3rd" src="https://github.com/user-attachments/assets/ed72104c-e80b-4f6c-ad14-6ae4e2ce4b3c" />
+<img width="1913" height="888" alt="4th" src="https://github.com/user-attachments/assets/2071ef95-d249-42f4-9306-b32202d23964" />
+<img width="1916" height="905" alt="man_login" src="https://github.com/user-attachments/assets/0550c566-efe0-4cc0-bc1e-8251ce0754c2" />
+<img width="1908" height="898" alt="man1st" src="https://github.com/user-attachments/assets/f21c3211-031d-472b-bfb8-bf57e698a713" />
+<img width="1896" height="891" alt="man2nd" src="https://github.com/user-attachments/assets/365977f7-488c-4789-9e80-2022749e60e8" />
+<img width="1905" height="901" alt="man3rd" src="https://github.com/user-attachments/assets/cbac8dc7-2dfd-4f88-88b1-e1f841728454" />
 
-<img width="1905" height="901" alt="emp_login" src="4th" />
 
-<img width="1905" height="901" alt="emp_login" src="man_login" />
 
-<img width="1905" height="901" alt="emp_login" src="man1st" />
-<img width="1905" height="901" alt="emp_login" src="man2nd" />
 
-<img width="1905" height="901" alt="emp_login" src="man3rd" />
+
 
 
