@@ -10,14 +10,14 @@ const Dashboard = ({ user }) => {
 
   const fetchToday = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/attendance/today', config);
+      const res = await axios.get('https://attendance-backend-moq7.onrender.com/api/attendance/today', config);
       setAttendance(res.data);
     } catch (err) { console.error(err); }
   };
 
   const fetchAll = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/attendance/all', config);
+      const res = await axios.get('https://attendance-backend-moq7.onrender.com/api/attendance/all', config);
       setAllRecords(res.data);
     } catch (err) { console.error(err); }
   };
@@ -29,7 +29,7 @@ const Dashboard = ({ user }) => {
 
   const handleCheckIn = async () => {
     try {
-      await axios.post('http://localhost:5000/api/attendance/checkin', {}, config);
+      await axios.post('https://attendance-backend-moq7.onrender.com/api/attendance/checkin', {}, config);
       fetchToday();
       alert('Checked In!');
     } catch (err) { alert(err.response.data.msg); }
@@ -37,7 +37,7 @@ const Dashboard = ({ user }) => {
 
   const handleCheckOut = async () => {
     try {
-      await axios.post('http://localhost:5000/api/attendance/checkout', {}, config);
+      await axios.post('https://attendance-backend-moq7.onrender.com/api/attendance/checkout', {}, config);
       fetchToday();
       alert('Checked Out!');
     } catch (err) { alert(err.response.data.msg); }

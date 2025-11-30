@@ -11,7 +11,7 @@ const AttendanceHistory = () => {
     const fetchHistory = async () => {
       const token = localStorage.getItem('token');
       try {
-        const res = await axios.get('http://localhost:5000/api/attendance/my-history', {
+        const res = await axios.get('https://attendance-backend-moq7.onrender.com/api/attendance/my-history', {
             headers: { 'x-auth-token': token }
         });
         setHistory(res.data);

@@ -15,15 +15,15 @@ const EmployeeDashboard = () => {
   const fetchData = async () => {
     try {
       
-      const todayRes = await axios.get('http://localhost:5000/api/attendance/today', config);
+      const todayRes = await axios.get('https://attendance-backend-moq7.onrender.com/api/attendance/today', config);
       setToday(todayRes.data);
 
       
-      const summaryRes = await axios.get('http://localhost:5000/api/attendance/my-summary', config);
+      const summaryRes = await axios.get('https://attendance-backend-moq7.onrender.com/api/attendance/my-summary', config);
       setSummary(summaryRes.data);
 
       
-      const historyRes = await axios.get('http://localhost:5000/api/attendance/my-history', config);
+      const historyRes = await axios.get('https://attendance-backend-moq7.onrender.com/api/attendance/my-history', config);
       setRecent(historyRes.data.slice(0, 5)); // Take top 5
     } catch (err) { console.error(err); }
   };
@@ -33,7 +33,7 @@ const EmployeeDashboard = () => {
   
   const handleCheckIn = async () => {
     try {
-      await axios.post('http://localhost:5000/api/attendance/checkin', {}, config);
+      await axios.post('https://attendance-backend-moq7.onrender.com/api/attendance/checkin', {}, config);
       alert('Checked In Successfully!');
       fetchData(); 
     } catch (err) { 
@@ -43,7 +43,7 @@ const EmployeeDashboard = () => {
 
   const handleCheckOut = async () => {
     try {
-      await axios.post('http://localhost:5000/api/attendance/checkout', {}, config);
+      await axios.post('https://attendance-backend-moq7.onrender.com/api/attendance/checkout', {}, config);
       alert('Checked Out Successfully!');
       fetchData(); 
     } catch (err) { 

@@ -15,7 +15,7 @@ const ManagerDashboard = () => {
     const fetchStats = async () => {
       const token = localStorage.getItem('token');
       try {
-        const res = await axios.get('http://localhost:5000/api/dashboard/manager', {
+        const res = await axios.get('https://attendance-backend-moq7.onrender.com/api/dashboard/manager', {
           headers: { 'x-auth-token': token }
         });
         setStats(res.data);

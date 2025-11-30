@@ -15,7 +15,7 @@ const Reports = () => {
       let query = `?date=${date}`;
       if (empId) query += `&employeeId=${empId}`;
 
-      const res = await axios.get(`http://localhost:5000/api/attendance/report${query}`, {
+      const res = await axios.get(`https://attendance-backend-moq7.onrender.com/api/attendance/report${query}`, {
         headers: { 'x-auth-token': token }
       });
       setAttendance(res.data);
