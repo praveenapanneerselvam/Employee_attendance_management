@@ -33,20 +33,7 @@ Use these credentials to test the deployed application:
 | **Manager** | `manager@test.com` | `123`    |
 | **Employee**| `emp@test.com`    | `123`    |
 
-<img width="1905" height="901" alt="emp_login" src="emp_login" />
-<img width="1905" height="901" alt="emp_login" src="1st" />
+<img width="1905" height="901" alt="man3rd" src="https://github.com/user-attachments/assets/7e2afe60-9b0c-4b67-bb9e-79277bdf026f" />
 
-<img width="1905" height="901" alt="emp_login" src="2nd" />
-
-<img width="1905" height="901" alt="emp_login" src="3rd" />
-
-<img width="1905" height="901" alt="emp_login" src="4th" />
-
-<img width="1905" height="901" alt="emp_login" src="man_login" />
-
-<img width="1905" height="901" alt="emp_login" src="man1st" />
-<img width="1905" height="901" alt="emp_login" src="man2nd" />
-
-<img width="1905" height="901" alt="emp_login" src="man3rd" />
 
 
